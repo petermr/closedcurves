@@ -1,5 +1,5 @@
 import argparse
-from closed_curves import draw
+from closedcurves import draw
 from datetime import datetime
 import os
 

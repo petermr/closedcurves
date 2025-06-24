@@ -1,5 +1,5 @@
 [project]
-name = "closed-curves"
+name = "closedcurves"
 version = "0.1.0"
 description = "Draw closed curves with parameterized, headless generation"
 authors = [{ name = "Your Name", email = "you@example.com" }]
@@ -12,7 +12,7 @@ dependencies = [
 ]
 
 [project.scripts]
-draw-curves = "closed_curves.main:main"
+draw-curves = "closedcurves.main:main"
 
 [build-system]
 requires = ["setuptools>=61.0"]

@@ -1,4 +1,4 @@
-from closed_curves import draw
+from closedcurves import draw
 
 def test_image_generation():
     image = draw.generate_curve_image({"seed": 123})
