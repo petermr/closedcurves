@@ -1,0 +1,19 @@
+[project]
+name = "closed-curves"
+version = "0.1.0"
+description = "Draw closed curves with parameterized, headless generation"
+authors = [{ name = "Your Name", email = "you@example.com" }]
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    "numpy",
+    "Pillow",
+    "matplotlib"
+]
+
+[project.scripts]
+draw-curves = "closed_curves.main:main"
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
